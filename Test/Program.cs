@@ -42,6 +42,7 @@ namespace Test
                         Console.WriteLine("Input BirthDate : (yyyy-MM-dd)");
                     }
 
+                    string resultData = "";
                     Console.WriteLine("BirhDate : " + mdlEmployee.birth_date);
                     Console.WriteLine("");
                     Console.WriteLine("Input Description : ");
@@ -61,7 +62,7 @@ namespace Test
                         }
                         else
                         {
-                            string result = DataEmployee.SaveDataEmployee(mdlEmployee);
+                            resultData = DataEmployee.SaveDataEmployee(mdlEmployee);
                         }
 
 
@@ -69,6 +70,11 @@ namespace Test
                     else
                     {
                         // presses something other then Y
+                    }
+
+                    if(resultData.Substring(0,5) == "Error")  {
+                        bolInput = false;
+                        continue;
                     }
 
                     Console.WriteLine("");
@@ -80,7 +86,7 @@ namespace Test
 
                         Console.WriteLine("Input Employee ID For Delete .....");
                         mdlEmployee.employee_id = Console.ReadLine();
-                        string result = DataEmployee.DeleteDataEmployee(mdlEmployee.employee_id);
+                        resultData = DataEmployee.DeleteDataEmployee(mdlEmployee.employee_id);
                     }
                     else
                     {
