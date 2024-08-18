@@ -38,7 +38,7 @@ namespace Test
                     }
                     else
                     {
-                        Console.WriteLine("Invalid Date"); // <-- Control flow goes here
+                        Console.WriteLine("Invalid BirthDate"); // <-- Control flow goes here
                         Console.WriteLine("Input BirthDate : (yyyy-MM-dd)");
                     }
 
@@ -57,6 +57,7 @@ namespace Test
                         {
                             Console.WriteLine("");
                             Console.WriteLine("Data Not Valid.");
+                            Console.Clear();
                             bolInput = false;
                             continue;
                         }
@@ -73,6 +74,7 @@ namespace Test
                     }
 
                     if(resultData.Substring(0,5) == "Error")  {
+                        Console.Clear();
                         bolInput = false;
                         continue;
                     }
@@ -92,6 +94,7 @@ namespace Test
                     {
                         // presses something other then Y
                     }
+                    Console.Clear();
                     bolInput = false;
                 }
 

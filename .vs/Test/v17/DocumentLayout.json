@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Test\\Test\\",
+  "WorkspaceRootPath": "F:\\Test\\Github\\Test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|F:\\Test\\Test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|f:\\test\\github\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|f:\\test\\test\\test\\dataemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|F:\\Test\\Github\\Test\\test\\dataemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A13354EF-3349-4423-8FAD-4838401CB6ED}|Test\\Test.csproj|solutionrelative:test\\dataemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DataEmployee.cs",
-              "DocumentMoniker": "F:\\Test\\Test\\Test\\DataEmployee.cs",
+              "DocumentMoniker": "F:\\Test\\Github\\Test\\Test\\DataEmployee.cs",
               "RelativeDocumentMoniker": "Test\\DataEmployee.cs",
-              "ToolTip": "F:\\Test\\Test\\Test\\DataEmployee.cs",
+              "ToolTip": "F:\\Test\\Github\\Test\\Test\\DataEmployee.cs",
               "RelativeToolTip": "Test\\DataEmployee.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAwwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,11 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Test\\Test\\Test\\Program.cs",
+              "DocumentMoniker": "F:\\Test\\Github\\Test\\Test\\Program.cs",
               "RelativeDocumentMoniker": "Test\\Program.cs",
-              "ToolTip": "F:\\Test\\Test\\Test\\Program.cs",
+              "ToolTip": "F:\\Test\\Github\\Test\\Test\\Program.cs",
               "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAAD4AAAAZAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T21:48:18.855Z",
               "EditorCaption": ""
